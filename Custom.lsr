@@ -23,6 +23,3 @@ DOMAIN-SUFFIX,embys.dpdns.org,DIRECT
 DOMAIN-SUFFIX,liuer.indevs.in,DIRECT
 DOMAIN-SUFFIX,dolby.dpdns.org,DIRECT
 
-# 指定地区
-DOMAIN-SUFFIX,polymarket.com,香港自动场景
-DOMAIN-SUFFIX,tradingview.com,日本自动场景
