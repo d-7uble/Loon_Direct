@@ -1,6 +1,6 @@
 # Name = 自建分流规则
-# Update = 2026-08-13
-# Total = 19
+# Update = 2026-08-16
+# Total = 59
 
 # Apple相关直连
 DOMAIN-SUFFIX,apple.com,DIRECT
@@ -23,3 +23,51 @@ DOMAIN-SUFFIX,embys.dpdns.org,DIRECT
 DOMAIN-SUFFIX,liuer.indevs.in,DIRECT
 DOMAIN-SUFFIX,dolby.dpdns.org,DIRECT
 
+# PETKIT core services
+DOMAIN,api.petkit.cn,DIRECT
+DOMAIN,img5.petkit.cn,DIRECT
+DOMAIN,nlb-ak7lzb1f7jxvzu8vks.cn-hangzhou.nlb.aliyuncsslb.com,DIRECT
+DOMAIN,petkit-cloud-storage-1-prod.oss-cn-hangzhou.aliyuncs.com,DIRECT
+
+# PETKIT visual-device live video and two-way audio
+# rtesvc.com 已由上方 DOMAIN-SUFFIX 规则覆盖
+DOMAIN,ap2-tls.agora.io,DIRECT
+DOMAIN,ap4-tls.agora.io,DIRECT
+
+# Mainland China public IPv4 addresses
+IP-CIDR,54.223.118.211/32,DIRECT,no-resolve
+IP-CIDR,101.132.108.165/32,DIRECT,no-resolve
+IP-CIDR,101.206.107.130/32,DIRECT,no-resolve
+IP-CIDR,106.14.12.130/32,DIRECT,no-resolve
+IP-CIDR,112.126.96.46/32,DIRECT,no-resolve
+IP-CIDR,114.236.93.152/32,DIRECT,no-resolve
+IP-CIDR,115.238.206.6/32,DIRECT,no-resolve
+IP-CIDR,123.234.3.118/32,DIRECT,no-resolve
+IP-CIDR,150.138.182.102/32,DIRECT,no-resolve
+IP-CIDR,150.139.247.37/32,DIRECT,no-resolve
+IP-CIDR,222.222.91.143/32,DIRECT,no-resolve
+IP-CIDR,47.107.39.93/32,DIRECT,no-resolve
+IP-CIDR,81.69.11.179/32,DIRECT,no-resolve
+IP-CIDR,1.82.218.13/32,DIRECT,no-resolve
+IP-CIDR,1.82.218.15/32,DIRECT,no-resolve
+IP-CIDR,1.82.218.42/32,DIRECT,no-resolve
+IP-CIDR,1.82.218.49/32,DIRECT,no-resolve
+IP-CIDR,1.82.218.50/32,DIRECT,no-resolve
+IP-CIDR,101.251.144.177/32,DIRECT,no-resolve
+IP-CIDR,101.251.144.179/32,DIRECT,no-resolve
+IP-CIDR,103.228.162.59/32,DIRECT,no-resolve
+IP-CIDR,114.67.228.40/32,DIRECT,no-resolve
+IP-CIDR,116.196.107.92/32,DIRECT,no-resolve
+IP-CIDR,118.190.148.38/32,DIRECT,no-resolve
+IP-CIDR,123.138.10.15/32,DIRECT,no-resolve
+IP-CIDR,123.138.10.23/32,DIRECT,no-resolve
+IP-CIDR,123.138.10.4/32,DIRECT,no-resolve
+IP-CIDR,123.138.10.49/32,DIRECT,no-resolve
+IP-CIDR,123.138.10.50/32,DIRECT,no-resolve
+IP-CIDR,123.138.10.7/32,DIRECT,no-resolve
+IP-CIDR,123.138.10.8/32,DIRECT,no-resolve
+IP-CIDR,123.138.10.86/32,DIRECT,no-resolve
+IP-CIDR,123.138.10.92/32,DIRECT,no-resolve
+IP-CIDR,123.138.10.93/32,DIRECT,no-resolve
+IP-CIDR,124.237.214.60/32,DIRECT,no-resolve
+IP-CIDR,222.222.91.144/32,DIRECT,no-resolve
